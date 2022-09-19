@@ -45,11 +45,20 @@ Note that this was the easy way to *create* your website, but it does come at a 
 <style>
 
 .gs-section-01 h3 { 
-     color: red }
+     color: #f61009 }
 
 .gs-section-01 p {
      font-size: 30px;
 }
+
+ .gs-section-02 h1 {
+     color: #5111ee}
+    
+ .gs-section-01 p {
+     font-size: 10px;
+}
+     
+     
 
 </style>
 
