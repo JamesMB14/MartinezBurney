@@ -26,45 +26,51 @@ layout: default
   <td>
   
     
-   **Strengths**
-  
+<h4>  Strengths  </h4>
+    <ul>
       
   - good father
   - funny
   - dated alanis morissette
 
+  </ul>  
     
-    <br>
+  <br>
 
-**Weaknessess**
+  <h4>  Weaknessess  </h4>
+  <ul>
+ 
   - singing
   - green lantern movie
   - tennis backhand 
-    
+  
+  </ul>   
   </td>
   
 
 
   <td>
   
-**Strengths**
+<h4>  Strengths  </h4>
+<ul>
    
   - builds houses
   - is a real boy
   - never dated alanis morissette
       
-  
+  </ul>
     
-    <br>
+  <br>
     
-  **Weaknessess**
+  <h4>  Weaknessess  </h4>
+  <ul>
    
       
   - micky mouse club
   - cries a lot
   - not ryan reynolds
       
-   
+  </ul>
 
   </td>
 </tr> 
