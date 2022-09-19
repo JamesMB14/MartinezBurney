@@ -55,7 +55,7 @@ Note that this was the easy way to *create* your website, but it does come at a 
      color: #5111ee}
     
  .gs-section-01 p {
-     font-size: 10px;
+     font-size: 5px;
 }
      
      
