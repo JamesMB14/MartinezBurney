@@ -2,10 +2,10 @@
 layout: default
 ---
   
-{{ content }}
+{{ Compariosn table }}
 
 
-
+![](img/ryan-v-ryan.jpg) 
 
 <h2> Ryan vs Ryan: Liquid Table Demo </h2>
 
@@ -26,26 +26,20 @@ layout: default
   <td>
   
     
-    <h4>  Strengths  </h4>
-    <ul>
+   **Strengths**
+  
       
-      {% for item in page.reynolds.strengths %}
-         <li>{{ item }}</li>
-      {% endfor %}
-      
-    </ul>
+  - good father
+  - funny
+  - dated alanis morissette
+
     
     <br>
 
-    <h4>  Weaknessess  </h4>
-    <ul>
-      
-      {% for item in page.reynolds.weaknesses %}
-         <li>{{ item }}</li>
-      {% endfor %}
-      
-    </ul>  
-    
+**Weaknessess**
+  - singing
+  - green lantern movie
+  - tennis backhand 
     
   </td>
   
@@ -53,25 +47,24 @@ layout: default
 
   <td>
   
-    <h4>  Strengths  </h4>
-    <ul>
+**Strengths**
+   
+  - builds houses
+  - is a real boy
+  - never dated alanis morissette
       
-      {% for item in page.gosling.strengths %}
-        <li>{{ item }}</li>
-      {% endfor %}
-      
-    </ul>
+  
     
     <br>
     
-    <h4>  Weaknessess  </h4>
-    <ul>
+  **Weaknessess**
+   
       
-      {% for item in page.gosling.weaknesses %}
-         <li>{{ item }}</li>
-      {% endfor %}
+  - micky mouse club
+  - cries a lot
+  - not ryan reynolds
       
-    </ul>
+   
 
   </td>
 </tr> 
