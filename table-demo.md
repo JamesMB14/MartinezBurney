@@ -6,6 +6,7 @@ layout: default
 
 
 
+![](/assets/img/ryan-v-ryan.jpg)
 
 <h2> Ryan vs Ryan: Liquid Table Demo </h2>
 
@@ -302,7 +303,7 @@ gosling:
 
             &lt;/ul>
           &lt;/td>
-        &lt;/tr> 
+        &lt;/tr> Textbook DAta R
         &lt;/table>
 
 </code>
