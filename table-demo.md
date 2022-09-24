@@ -1,12 +1,11 @@
 ---
-layout: default
+layout: page
 ---
   
-{{ Compariosn table }}
+{{ content }}
 
 
 
-![](/assets/img/ryan-v-ryan.jpg)
 
 <h2> Ryan vs Ryan: Liquid Table Demo </h2>
 
@@ -27,51 +26,52 @@ layout: default
   <td>
   
     
-<h4>  Strengths  </h4>
+    <h4>  Strengths  </h4>
     <ul>
       
-  - good father
-  - funny
-  - dated alanis morissette
-
-  </ul>  
+      {% for item in page.reynolds.strengths %}
+         <li>{{ item }}</li>
+      {% endfor %}
+      
+    </ul>
     
-  <br>
+    <br>
 
-  <h4>  Weaknessess  </h4>
-  <ul>
- 
-  - singing
-  - green lantern movie
-  - tennis backhand 
-  
-  </ul>   
+    <h4>  Weaknessess  </h4>
+    <ul>
+      
+      {% for item in page.reynolds.weaknesses %}
+         <li>{{ item }}</li>
+      {% endfor %}
+      
+    </ul>  
+    
+    
   </td>
   
 
 
   <td>
   
-<h4>  Strengths  </h4>
-<ul>
-   
-  - builds houses
-  - is a real boy
-  - never dated alanis morissette
+    <h4>  Strengths  </h4>
+    <ul>
       
-  </ul>
+      {% for item in page.gosling.strengths %}
+        <li>{{ item }}</li>
+      {% endfor %}
+      
+    </ul>
     
-  <br>
+    <br>
     
-  <h4>  Weaknessess  </h4>
-  <ul>
-   
+    <h4>  Weaknessess  </h4>
+    <ul>
       
-  - micky mouse club
-  - cries a lot
-  - not ryan reynolds
+      {% for item in page.gosling.weaknesses %}
+         <li>{{ item }}</li>
+      {% endfor %}
       
-  </ul>
+    </ul>
 
   </td>
 </tr> 
@@ -84,37 +84,11 @@ layout: default
 <hr>
 
 <br>
----
-layout: liquid-table
-title: 'amiright?'
-reynolds:
-  strengths:
-  - good father
-  - funny
-  - dated alanis morissette
-  weaknesses: 
-  - singing
-  - green lantern movie
-  - tennis backhand 
-gosling:
-  strengths: 
-  - builds houses
-  - is a real boy
-  - never dated alanis morissette
-  weaknesses: 
-  - micky mouse club
-  - cries a lot
-  - not ryan reynolds
----
 
 
 <blockquote>
 <pre>
 <code>
-
-
-
-
 
     ###
     ###  LAYOUT INHERITANCE
@@ -303,7 +277,7 @@ gosling:
 
             &lt;/ul>
           &lt;/td>
-        &lt;/tr> Textbook DAta R
+        &lt;/tr> 
         &lt;/table>
 
 </code>
